@@ -23,7 +23,7 @@ function createHeader(dfm) {
 function createImages(dfm,src,name) {
   var contentImage = document.createElement("div");
   var img = document.createElement("img");
-  var span = document.createElement("figcaption");
+  var figcaption = document.createElement("figcaption");
 
   img.src = src;
   contentImage.setAttribute("class","box-pictures");
@@ -31,8 +31,8 @@ function createImages(dfm,src,name) {
 
   dfm.appendChild(contentImage);
   contentImage.appendChild(img);
-  contentImage.appendChild(span);
-  span.appendChild(document.createTextNode(name));
+  contentImage.appendChild(figcaption);
+  figcaption.appendChild(document.createTextNode(name));
   return dfm;
 }
 

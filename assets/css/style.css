@@ -1,14 +1,15 @@
 #content{
   margin: 20px 90px;
-  font-family: 'Raleway', sans-serif;
+  font-family: monospace;
 }
 .box-header{
   position: relative;
-  margin-left: 5px;
+  margin-left: 4px;
 }
 h3{
   display: inline-block;
   height: 10px;
+  font-size: 22px;
 }
 .line{
   display: block;
@@ -21,7 +22,6 @@ div.box-pictures{
   width: 320px;
   position: relative;
   margin: 10px 10px;
-  padding: 0;
 }
 
 .picture{
@@ -38,5 +38,5 @@ figcaption{
   bottom: 10%;
   color: white;
   font-weight: bold;
-  font-family: ;
+  font-size: 18px;
 }
